@@ -1,0 +1,37 @@
+{
+  "id": "2361368",
+  "name": "ife",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "19170496",
+      "name": "扇子",
+      "font_class": "shanzi",
+      "unicode": "e6b5",
+      "unicode_decimal": 59061
+    },
+    {
+      "icon_id": "19171497",
+      "name": "气球",
+      "font_class": "qiqiu",
+      "unicode": "e6b7",
+      "unicode_decimal": 59063
+    },
+    {
+      "icon_id": "19173585",
+      "name": "对联",
+      "font_class": "duilian",
+      "unicode": "e6ba",
+      "unicode_decimal": 59066
+    },
+    {
+      "icon_id": "19197355",
+      "name": "中国结",
+      "font_class": "zhongguojie",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    }
+  ]
+}
