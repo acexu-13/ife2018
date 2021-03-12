@@ -1,0 +1,81 @@
+/* 实现一个两栏布局，左侧占30%宽度，右侧占70%宽度 */
+/* .left{
+    float: left;
+    height:200px;
+    width: 30%;
+    background-color:cadetblue;
+}
+.right{
+    float: right;
+    height:200px;
+    width: 70%;
+    background-color: bisque;
+} */
+
+/* 实现一个两栏布局，左侧固定宽度，右侧根据浏览器宽度进行自适应变化 */
+/* .left{
+    float: left;
+    height:200px;
+    width: 200px;
+    background-color:cadetblue;
+}
+.right{
+    height:200px;
+    background-color: bisque;
+} */
+
+/* 实现一个两栏布局，右侧固定宽度，左侧根据浏览器宽度进行自适应变化 */
+.left{
+    float: left;
+    height:200px;
+    background-color:cadetblue;
+    margin-right: 200px;
+}
+.right{
+    float: right;
+    height:200px;
+    width: 200px;
+    background-color: bisque;
+    margin-top: -200px;
+}
+
+/* 实现一个三栏布局，左侧固定宽度，右侧固定宽度，中间部分宽度随浏览器宽度变化而自适应变化 */
+/* overflow 属性规定当内容溢出元素框时发生的事情。auto:如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容。 */
+/* .left{
+    float: left;
+    width:200px;
+    height:200px;
+    background-color:cadetblue;
+}
+.mid{
+    overflow: hidden;
+    height:200px;
+    background-color:yellowgreen;
+    margin-right: 200px;
+    
+}
+.right{
+    float: right;
+    height:200px;
+    width: 200px;
+    background-color: bisque;
+    margin-top: -200px;
+} */
+/* 实现一个三栏布局，左侧固定宽度，中间固定宽度，右侧根据浏览器宽度变化而自适应变化 */
+/* .left{
+    float: left;
+    width:200px;
+    height:200px;
+    background-color:cadetblue;
+}
+.mid{
+    float: left;
+    width:200px;
+    height:200px;
+    background-color:yellowgreen;
+}
+.right{
+    overflow: hidden;
+    height:200px;
+    background-color: bisque;
+} */

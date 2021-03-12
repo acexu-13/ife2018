@@ -1,0 +1,91 @@
+/* 实现一个两栏布局，左侧占30%宽度，右侧占70%宽度 */
+/* .left{
+    height:200px;
+    width: 30%;
+    background-color:cadetblue;
+}
+.right{
+    position: relative;
+    height:200px;
+    width: 70%;
+    background-color: bisque;
+    left:30%;
+    top:-200px;  
+} */
+
+/* 实现一个两栏布局，左侧固定宽度，右侧根据浏览器宽度进行自适应变化 */
+/* .left{
+    position: fixed;
+    height:200px;
+    width: 200px;
+    background-color:cadetblue;
+}
+.right{
+    position: absolute;
+    height:200px;
+    overflow: hidden;
+    background-color: bisque;
+    left: 200px; 
+} */
+
+/* 实现一个两栏布局，右侧固定宽度，左侧根据浏览器宽度进行自适应变化 */
+/* .left{
+    position: absolute;
+    height:200px;
+    background-color:cadetblue;
+}
+.right{
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    right: 0px;
+} */
+
+/* 实现一个三栏布局，左侧固定宽度，右侧固定宽度，中间部分宽度随浏览器宽度变化而自适应变化 */
+/* .left{
+    position: fixed;
+    height:200px;
+    width: 200px;
+    background-color:cadetblue;
+}
+.mid{
+    overflow: hidden;
+    height: 200px;
+    background-color: yellowgreen;
+    margin: 0 200px 0  200px;
+
+}
+.right{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    top: -200px;
+    left: calc(100% - 200px);
+} */
+/* calc() 函数运算符前后都需要保留一个空格，例如：width: calc(100% - 10px)；*/
+
+/* 实现一个三栏布局，左侧固定宽度，中间固定宽度，右侧根据浏览器宽度变化而自适应变化 */
+.left{
+    position: relative;
+    height:200px;
+    width: 200px;
+    background-color:cadetblue;
+}
+.mid{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    left: 200px;
+    top: -200px;
+}
+.right{
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    background-color: bisque;
+    top:-400px;
+    left: 400px;
+}

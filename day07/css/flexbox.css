@@ -1,0 +1,84 @@
+/* 实现一个两栏布局，左侧占30%宽度，右侧占70%宽度 */
+/* .wrapper{
+    display: flex;
+    height:200px;
+}
+.left{
+    flex: 0 0 30%;
+    background-color:cadetblue;
+}
+.right{  
+    flex: 0 0 70%;
+    background-color: bisque;
+} */
+
+
+/* 实现一个两栏布局，左侧固定宽度，右侧根据浏览器宽度进行自适应变化 */
+/* .wrapper{
+    display: flex;
+    height:200px;
+}
+.left{
+    flex: 0 0 200px;
+    background-color:cadetblue;
+}
+.right{  
+    background-color: bisque;
+} */
+
+/* 实现一个两栏布局，右侧固定宽度，左侧根据浏览器宽度进行自适应变化 */
+/* .wrapper{
+    display: flex;
+    height:200px;
+}
+.left{
+    background-color:cadetblue;
+}
+.right{  
+    flex: 0 0 200px;
+    background-color: bisque;
+} */
+
+/* 实现一个三栏布局，左侧固定宽度，右侧固定宽度，中间部分宽度随浏览器宽度变化而自适应变化 */
+/* 要使用flexbox，就必须先设置弹性容器。display：flex（块级弹性容器）/inline-flex（行内弹性容器） */
+/* flex-direction:指定容器中弹性元素的排列方式。row（默认，水平排列，主轴）column（竖直排列，侧轴） */
+/* flex-wrap:设置元素是否在弹性容器中自动换行。nowrap（默认，不自动换行） */
+/* justify-content:设置主轴上的元素如何排列。 */
+/* flex：增长  缩减  基础  ；（简写属性） */
+/* .wrapper{
+    display: flex;
+    height:200px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+.left{
+    flex: 0 0 200px;
+    background-color:cadetblue;
+    overflow: hidden;
+}
+.mid{
+    overflow: hidden;
+    background-color: yellowgreen;
+}
+.right{
+    flex: 0 0 200px;
+    background-color: bisque;
+} */
+
+/* 实现一个三栏布局，左侧固定宽度，中间固定宽度，右侧根据浏览器宽度变化而自适应变化 */
+.wrapper{
+    display: flex;
+    height:200px;
+}
+.left{
+    flex: 0 0 200px;
+    background-color:cadetblue;
+}
+.mid{
+    flex: 0 0 200px;
+    background-color: yellowgreen;
+}
+.right{
+    background-color: bisque;
+}
